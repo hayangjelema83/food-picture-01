@@ -20,7 +20,7 @@
 import { copyFileSync, mkdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
-const CANDIDATE = 3;
+const CANDIDATE = 2;
 
 if (![1, 2, 3].includes(CANDIDATE)) {
   throw new Error(`CANDIDATE must be 1, 2 or 3, got ${CANDIDATE}`);
